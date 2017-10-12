@@ -1,0 +1,16 @@
+Project owners:
+
+Berkay Özerbay: 2016400270
+Ergün Erdoğmuş: 2014400006
+
+Implementation
+- Project has two classes and one main driver class
+
+- First class is "CalculatorWidget" class which is responsible from only view part.
+Just exposes some methods to manipulate the views and binds inputs from controller to actions
+
+- Second class is "CalculatorController", main logic is implemented in here. 
+Just exposes start() method which starts the application, shows the view.
+
+Other methods are responsible from the magic logic of the calculator
+such as when digit clicked, currentText is updated.
